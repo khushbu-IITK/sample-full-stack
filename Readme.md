@@ -26,11 +26,11 @@ COMMUNICATION:
                         ↓
         Frontend sends POST request to FastAPI backend
                         ↓
-FastAPI checks login details
-        ↓
-FastAPI sends response back
-        ↓
-Frontend displays success or error message
+        FastAPI checks login details
+                        ↓
+        FastAPI sends response back
+                        ↓
+        Frontend displays success or error message
 
 
 BACKEND LIBRARIES:
