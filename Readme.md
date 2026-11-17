@@ -1,20 +1,30 @@
 This will be a small full stack project. Here we will be building simple user login page via calling frontend and backend. 
 
 Frontend: Login page where user enters username and password
+
 Backend: FastAPI server that receives username/password and checks login logic
+
 
 For this simple version, we will not use a database yet.
 
 Frontend:
+
 -Taking username input
+
 -Taking password input
+
 -Calling backend API when Login button is clicked
+
 -Showing success/error message
 
 Backend:
+
 -Receiving username and password
+
 -Validating request data
+
 -Checking whether username/password are correct
+
 -Returning success or failure response
 
 
