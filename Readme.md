@@ -9,23 +9,23 @@ For this simple version, we will not use a database yet.
 
 Frontend:
 
--Taking username input
-
--Taking password input
-
--Calling backend API when Login button is clicked
-
--Showing success/error message
+        -Taking username input
+        
+        -Taking password input
+        
+        -Calling backend API when Login button is clicked
+        
+        -Showing success/error message
 
 Backend:
 
--Receiving username and password
-
--Validating request data
-
--Checking whether username/password are correct
-
--Returning success or failure response
+        -Receiving username and password
+        
+        -Validating request data
+        
+        -Checking whether username/password are correct
+        
+        -Returning success or failure response
 
 
 COMMUNICATION:
@@ -44,13 +44,13 @@ COMMUNICATION:
 
 
 BACKEND LIBRARIES:
--FastAPI: For building the backend API
--uvicorn: For running the FastAPI server
--pydantic: For data validation
+        -FastAPI: For building the backend API
+        -uvicorn: For running the FastAPI server
+        -pydantic: For data validation
 
 FRONTEND LIBRARIES:
-  Basic one: HTML/CSS/JavaScript
-    Optional: React or Vue.js for better UI/UX (not required for this simple version
+          Basic one: HTML/CSS/JavaScript
+            Optional: React or Vue.js for better UI/UX (not required for this simple version
 
 
 backend/main.py         -> FastAPI backend code
