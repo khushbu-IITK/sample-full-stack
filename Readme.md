@@ -19,12 +19,13 @@ Backend:
 
 
 COMMUNICATION:
-User enters username/password
-        ↓
-User clicks Login button
-        ↓
-Frontend sends POST request to FastAPI backend
-        ↓
+
+        User enters username/password
+                        ↓
+        User clicks Login button
+                        ↓
+        Frontend sends POST request to FastAPI backend
+                        ↓
 FastAPI checks login details
         ↓
 FastAPI sends response back
